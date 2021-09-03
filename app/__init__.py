@@ -21,7 +21,7 @@ def getConexion():
     try:
         conexion = pymysql.connect(host='localhost',
                                    user='root',
-                                   password='root',
+                                   password='*********',
                                    db='birdbook',
                                    client_flag=CLIENT.MULTI_STATEMENTS)
 
